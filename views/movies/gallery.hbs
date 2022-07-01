@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>Películas</h1>
+    <hr>
+    <div class="row">
+        {{#each movies}}
+        <div class="col-md-4 mb-4">
+            <img src="{{imageUrl}}" alt="{{title}}" style="width: 100%">
+            <p>{{title}}</p>
+            <p>{{description}}</p>
+        </div>
+        {{/each}}
+    </div>
+</div>
